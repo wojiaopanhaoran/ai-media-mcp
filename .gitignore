@@ -1,0 +1,26 @@
+# Node
+node_modules/
+dist/
+*.log
+
+# Secrets — NEVER commit real keys
+.env
+.env.local
+.env.*.local
+
+# Generated media (keep repo clean)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+!**/*.example.png
+test-output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

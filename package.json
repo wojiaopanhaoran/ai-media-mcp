@@ -1,0 +1,30 @@
+{
+  "name": "ai-media-mcp",
+  "version": "1.3.1",
+  "description": "Unified MCP server for image & video generation (GPT-Image / Gemini / Grok / Jimeng), zero base64, file-path output only.",
+  "main": "ai-media-mcp.mjs",
+  "bin": {
+    "ai-media-mcp": "ai-media-mcp.mjs"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node ai-media-mcp.mjs",
+    "check": "node --check ai-media-mcp.mjs",
+    "test": "node --check ai-media-mcp.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "image-generation",
+    "video-generation",
+    "gpt-image",
+    "gemini",
+    "grok",
+    "jimeng",
+    "seedream",
+    "zero-base64"
+  ],
+  "license": "MIT"
+}
